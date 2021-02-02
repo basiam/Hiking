@@ -12,8 +12,16 @@ struct ContentView: View {
     let hikes = Hike.all()
 
     var body: some View {
-        List(self.hikes, id: \.name) { hike in
-            HikeCell(hike: hike)
+        NavigationView {
+            List(self.hikes, id: \.name) { hike in
+                NavigationLink(
+                    destination: HikeDetail(hike: hike)
+                ){
+                    HikeCell(hike: hike)
+                }
+            }
+            
+            .navigationBarTitle("Hiking", displayMode: .inline)
         }
     }
 }
@@ -32,7 +40,10 @@ struct HikeCell: View {
                 .resizable()
                 .frame(width: 100, height: 100)
                 .cornerRadius(10)
-            Text(hike.name)
+            VStack(alignment: .leading) {
+                Text(hike.name)
+                Text("\(String(format: "%.2f", hike.miles)) miles")
+            }
         }
     }
 }

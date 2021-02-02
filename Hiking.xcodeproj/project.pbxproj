@@ -15,6 +15,7 @@
 		4D0BA88125C962B7000C8AB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA88025C962B7000C8AB2 /* Preview Assets.xcassets */; };
 		4D0BA88425C962B7000C8AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0BA88225C962B7000C8AB2 /* LaunchScreen.storyboard */; };
 		4D0BA88E25C962EC000C8AB2 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA88D25C962EC000C8AB2 /* Hike.swift */; };
+		4D0BA89A25C9679F000C8AB2 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BA89925C9679F000C8AB2 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4D0BA88325C962B7000C8AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0BA88525C962B7000C8AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0BA88D25C962EC000C8AB2 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		4D0BA89925C9679F000C8AB2 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				4D0BA88C25C962D8000C8AB2 /* Models */,
 				4D0BA87425C962B5000C8AB2 /* AppDelegate.swift */,
+				4D0BA89925C9679F000C8AB2 /* HikeDetail.swift */,
 				4D0BA87625C962B5000C8AB2 /* SceneDelegate.swift */,
 				4D0BA87825C962B6000C8AB2 /* ContentView.swift */,
 				4D0BA87D25C962B7000C8AB2 /* Assets.xcassets */,
@@ -164,6 +167,7 @@
 				4D0BA87C25C962B6000C8AB2 /* Hiking.xcdatamodeld in Sources */,
 				4D0BA87725C962B5000C8AB2 /* SceneDelegate.swift in Sources */,
 				4D0BA87925C962B6000C8AB2 /* ContentView.swift in Sources */,
+				4D0BA89A25C9679F000C8AB2 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
